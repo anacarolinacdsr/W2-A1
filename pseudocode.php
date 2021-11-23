@@ -1,8 +1,6 @@
 <?php
 echo "Pseudocode"
-?>
 
-<?php
 // Logical Operators
 $x = 10;
 $y = 20;
@@ -11,9 +9,6 @@ if ($x ==$y || 1 == 1){
     echo "True";
 }
 
-?>
-
-<?php
 function remove_duplicates_list($list1) {
   $nums_unique = array_values(array_unique($list1));
   return $nums_unique ;
